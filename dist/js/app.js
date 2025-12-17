@@ -214,4 +214,5 @@
     }
     spoller();
     tabs();
+    Fancybox.bind("[data-fancybox]", {});
 })();

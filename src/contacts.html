@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+  @@include('html/head.html',{ "title":"pauchoo0k" })
+  <body class="body">
+    @@include('html/components/header.html')
+    <main>
+      <section class="s-main">
+        <div class="container s-main__container">
+          <div class="s-main__body">
+            <div class="s-main__top">
+              <div class="s-main__head">
+                <a href="/" class="btn-prev">
+                  <svg>
+                    <use xlink:href="img/icons/icons.svg#icon-prev"></use>
+                  </svg>
+                </a>
+                <a href="/" class="s-main__logo">
+                  <img src="@img/logo.svg" alt="logo" />
+                </a>
+                <div></div>
+              </div>
+              <h1 class="s-main__title">Контакты</h1>
+            </div>
+            <div class="s-main__contacts">
+              <a href="tel:+79999999999" class="s-main__tel">
+                +7 (999) 999-99-99
+              </a>
+              <a href="mailto:pwippwip@yandex.ru" class="s-main__mail">
+                pwippwip@yandex.ru
+              </a>
+              <div class="s-main__address">
+                г. Казань, ЖМ Вознесенское,
+                <br />
+                Заречная улица, 58
+              </div>
+              <div class="s-main__social">
+                <a href="#" target="_blank" class="s-main__social-btn">
+                  <svg>
+                    <use xlink:href="img/icons/icons.svg#icon-tg"></use>
+                  </svg>
+                </a>
+                <a href="#" target="_blank" class="s-main__social-btn">
+                  <svg>
+                    <use xlink:href="img/icons/icons.svg#icon-max"></use>
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <a href="tel:+79009082079" class="btn-s s-main__btn">
+              <svg>
+                <use xlink:href="img/icons/icons.svg#icon-tel"></use>
+              </svg>
+              <span>Позвонить</span>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+    @@include('html/components/footer.html')
+    <script src="js/app.min.js"></script>
+  </body>
+</html>

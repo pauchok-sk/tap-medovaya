@@ -4,3 +4,5 @@ import tabs from "./files/tabs.js";
 
 spoller();
 tabs();
+
+Fancybox.bind("[data-fancybox]", {});
