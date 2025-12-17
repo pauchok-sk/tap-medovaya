@@ -1,0 +1,123 @@
+<!doctype html>
+<html>
+  @@include('html/head.html',{ "title":"pauchoo0k" })
+  <body class="body">
+    @@include('html/components/header.html')
+    <main>
+      <section class="s-main">
+        <div class="container s-main__container">
+          <div class="s-main__body">
+            <div class="s-main__top">
+              <div class="s-main__head">
+                <a href="/" class="btn-prev">
+                  <svg>
+                    <use xlink:href="img/icons/icons.svg#icon-prev"></use>
+                  </svg>
+                </a>
+                <a href="/" class="s-main__logo">
+                  <img src="@img/logo.svg" alt="logo" />
+                </a>
+                <div></div>
+              </div>
+              <h1 class="s-main__title">Прайс-лист</h1>
+            </div>
+            <div class="tabs">
+              <div class="s-main__price-nav">
+                <div class="s-main__price-btn _active" data-tab-btn="price-tab-1">
+                  Парение
+                </div>
+                <div class="s-main__price-btn" data-tab-btn="price-tab-2">Кухня</div>
+              </div>
+              <div data-tab="price-tab-1" class="_active" style="opacity: 1;">
+                <table class="s-main__price-table">
+                  <thead>
+                    <tr>
+                      <th class="cell-head">Название</th>
+                      <th class="cell-head">Стоимость</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td class="cell">Кола ж/б</td>
+                      <td class="cell">200 руб.</td>
+                    </tr>
+                    <tr>
+                      <td class="cell">Пиво</td>
+                      <td class="cell">250 руб.</td>
+                    </tr>
+                    <tr>
+                      <td class="cell">Корона</td>
+                      <td class="cell">350 руб.</td>
+                    </tr>
+                    <tr>
+                      <td class="cell">Натахтари</td>
+                      <td class="cell">200 руб.</td>
+                    </tr>
+                    <tr>
+                      <td class="cell">Квас 1 л.</td>
+                      <td class="cell">300 руб.</td>
+                    </tr>
+                    <tr>
+                      <td class="cell">Кальян</td>
+                      <td class="cell">2000 руб.</td>
+                    </tr>
+                    <tr>
+                      <td class="cell">Кола ж/б</td>
+                      <td class="cell">200 руб.</td>
+                    </tr>
+                    <tr>
+                      <td class="cell">Пиво</td>
+                      <td class="cell">250 руб.</td>
+                    </tr>
+                    <tr>
+                      <td class="cell">Корона</td>
+                      <td class="cell">350 руб.</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <div data-tab="price-tab-2">
+                <table class="s-main__price-table">
+                  <thead>
+                    <tr>
+                      <th class="cell-head">Название</th>
+                      <th class="cell-head">Стоимость</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td class="cell">Натахтари</td>
+                      <td class="cell">200 руб.</td>
+                    </tr>
+                    <tr>
+                      <td class="cell">Квас 1 л.</td>
+                      <td class="cell">300 руб.</td>
+                    </tr>
+                    <tr>
+                      <td class="cell">Кальян</td>
+                      <td class="cell">2000 руб.</td>
+                    </tr>
+                    <tr>
+                      <td class="cell">Кола ж/б</td>
+                      <td class="cell">200 руб.</td>
+                    </tr>
+                    <tr>
+                      <td class="cell">Пиво</td>
+                      <td class="cell">250 руб.</td>
+                    </tr>
+                    <tr>
+                      <td class="cell">Корона</td>
+                      <td class="cell">350 руб.</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    @@include('html/components/footer.html')
+    <script src="js/app.min.js"></script>
+  </body>
+</html>
