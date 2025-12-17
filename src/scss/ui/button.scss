@@ -1,0 +1,26 @@
+@use "../base/templates" as *;
+
+.btn-s {
+  @include flex-center;
+  gap: 15px;
+  cursor: pointer;
+  background-color: var(--primary);
+  border: none;
+  border-radius: 4px;
+  padding: 22px 30px;
+  -webkit-tap-highlight-color: transparent; 
+
+  color: black;
+  font-weight: 500;
+  font-size: 20px;
+
+  transition: box-shadow .3s ease;
+  @include hover {
+    box-shadow: 2px 2px 7px 0 rgba(245, 249, 138, 0.75);
+  }
+
+  svg {
+    width: 22px;
+    height: 22px;
+  }
+}
